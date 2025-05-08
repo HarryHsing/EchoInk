@@ -96,7 +96,7 @@ AVQA_R1/
 
 ## 🚀 Training
 
-### 📥 Download  🤗Qwen2.5-Omni-7B Model
+### 📥 Download Qwen2.5-Omni-7B Model
 
 First, download the base model: [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B)
 
