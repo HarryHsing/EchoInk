@@ -134,12 +134,10 @@ We thank the open-source community. This work builds on [Video-R1](https://githu
 If you find EchoInk-R1 useful, please cite:
 
 ```bibtex
-@misc{xing2025echoinkr1exploringaudiovisualreasoning,
-      title={EchoInk-R1: Exploring Audio-Visual Reasoning in Multimodal LLMs via Reinforcement Learning}, 
+@article{xing2025echoinkr1exploringaudiovisualreasoning,
+      title={{EchoInk-R1}: Exploring Audio-Visual Reasoning in Multimodal {LLMs} via Reinforcement Learning}, 
       author={Zhenghao Xing and Xiaowei Hu and Chi-Wing Fu and Wenhai Wang and Jifeng Dai and Pheng-Ann Heng},
       year={2025},
-      eprint={2505.04623},
-      archivePrefix={arXiv},
-      url={https://arxiv.org/abs/2505.04623}, 
+      journal={arXiv preprint arXiv:2505.04623}
 }
 ```
