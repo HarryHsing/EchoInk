@@ -120,7 +120,7 @@ Evaluate on the AVQA-R1-6K validation set:
 
 ```bash
 python ./omniInstruct-v1_eval_valid.py # Run the model on the validation set
-python ./mniInstruct-v1_cal_metrics_valid.py # Compute accuracy
+python ./omniInstruct-v1_cal_metrics_valid.py # Compute accuracy
 ```
 
 
