@@ -1,0 +1,9 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+src/r1-v/log
+src/r1-v/debug*
+*.pyc
+*.log
+exp_results/*.json
+exp_results/*.json_FULL
+exp_results/*.jsonl
