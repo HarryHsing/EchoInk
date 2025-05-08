@@ -9,10 +9,10 @@
 
 We introduce **AVQA-R1-6K**, a dataset derived from [OmniInstruct-v1](https://huggingface.co/datasets/m-a-p/OmniInstruct_v1), comprising:
 - **4,490 training** samples  
-- **1,911 validation** samples  
+- **1,911 validation** samples
+- Each sample includes a synchronized audio-image pair with a multiple-choice question and four options.
 
-Each sample includes a synchronized audio-image pair with a multiple-choice question and four options.
-
+Beyond our core study, **EchoInk-R1** provides an extensible **RL fine-tuning framework for Qwen2.5-Omni**, enabling easy adaptation to new multimodal reasoning tasks with minimal modifications.
 
 ## 📈 Performance
 
