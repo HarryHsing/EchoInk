@@ -7,7 +7,7 @@
 
 **EchoInk-R1** is the **first general framework for unified audio-visual reasoning via reinforcement learning**, built upon **Qwen2.5-Omni-7B** and optimized using **Group Relative Policy Optimization (GRPO)**. It supports structured reasoning over synchronized audio-image inputs through multiple-choice question answering.
 
-We introduce **AVQA-R1-6K**, a dataset derived from OmniInstruct-v1, comprising:
+We introduce **AVQA-R1-6K**, a dataset derived from [OmniInstruct-v1](https://huggingface.co/datasets/m-a-p/OmniInstruct_v1), comprising:
 - **4,490 training** samples  
 - **1,911 validation** samples  
 
