@@ -61,6 +61,8 @@ During training, **EchoInk-R1** exhibits **reflective reasoning behaviors**, whe
 
 ## 🔧 Setup & Installation
 
+### Environment Setup
+
 ```bash
 git clone https://github.com/HarryHsing/EchoInk
 cd EchoInk
