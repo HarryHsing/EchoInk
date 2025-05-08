@@ -50,8 +50,9 @@ During training, **EchoInk-R1** exhibits **reflective reasoning behaviors**, whe
 
 ## 📉 Learning Dynamics
 
-- Accuracy steadily improves with reinforcement learning
-- Output length initially fluctuates but stabilizes, suggesting more concise reasoning
+- **Accuracy reward** steadily improves throughout training, indicating that GRPO effectively guides the model toward more accurate and reasoned outputs.
+- **Completion length** exhibits a two-phase trend: an initial increase as the model explores elaborated reasoning, followed by a gradual decline toward more concise and efficient answers.
+- **Format reward** converges rapidly, showing that the model quickly internalizes the required response structure.
 
 <p align="center">
   <img src="./images/train_curves.png" width="1280px" alt="Training dynamics" />
