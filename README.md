@@ -100,7 +100,7 @@ AVQA_R1/
 
 First, download the base model: [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B)
 
-> ⚠️ Modify `config.json` of `Qwen2.5-Omni-7B` to include `"hidden_size": 3584` at the root level.
+Modify `config.json` of `Qwen2.5-Omni-7B` to include `"hidden_size": 3584` at the root level.
 
 
 ### 🔁 Launch GRPO Training
