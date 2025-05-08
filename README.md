@@ -22,9 +22,7 @@ All code, models, and data are released to support transparency and reproducibil
 
 
 ## 📰 News
-- **[2025/05/08]** Public release of AVQA-R1-6K dataset and EchoInk-R1-7B model on 🤗 Hugging Face
-- **[2025/05/08]** Open-sourced the full training and evaluation pipeline
-- **[2025/05/08]** Released the technical report on [arXiv](https://arxiv.org/abs/2505.04623)
+- **[2025/05/08]** Released the [AVQA-R1-6K dataset](https://huggingface.co/datasets/harryhsing/OmniInstruct_V1_AVQA_R1), [EchoInk-R1-7B model](https://huggingface.co/harryhsing/EchoInk-R1-7B), full training & evaluation pipeline, and [technical report](https://arxiv.org/abs/2505.04623).
 
 
 ## 📌 Highlights
