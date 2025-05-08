@@ -106,7 +106,6 @@ Modify `config.json` of `Qwen2.5-Omni-7B` to include `"hidden_size": 3584` at th
 ```bash
 bash ./src/scripts/run_grpo_image_audio_avqa.sh
 ```
-> 📁 Set `dataset_name` to the path of your `omni_rl_format_train.json` file.  
 > 📝 Set `per_device_train_batch_size=1` as in previous R1-V setups  
 > 📝 To use custom data, follow the JSON format in `make_omniInstruct_r1_dataset.py` for audio–image or audio–video tasks.  
 > ⚠️ See [Qwen2.5-Omni issue #205](https://github.com/QwenLM/Qwen2.5-Omni/issues/205) if you run into a dtype mismatch error. 
