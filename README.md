@@ -1,4 +1,4 @@
-# 🔊 EchoInk-R1: Audio-Visual Reasoning in Multimodal LLMs
+# EchoInk-R1: Audio-Visual Reasoning in Multimodal LLMs
 
 [📄 Technical Report (arXiv)](https://arxiv.org/pdf/2505.04623) • [🤗 Model (EchoInk-R1-7B)](https://huggingface.co/harryhsing/EchoInk-R1-7B) • [📊 Dataset (AVQA-R1-6K)](https://huggingface.co/datasets/harryhsing/OmniInstruct_V1_AVQA_R1)
 
