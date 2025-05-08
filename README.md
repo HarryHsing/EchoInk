@@ -70,7 +70,7 @@ conda activate echoink-r1
 bash setup.sh
 ```
 
-### 🗂️ Download Dataset
+### Download Dataset
 
 To download and extract the AVQA-R1-6K dataset:
 
@@ -95,21 +95,21 @@ AVQA_R1/
 
 ## 🚀 Training
 
-### 📥 Download Qwen2.5-Omni-7B Model
+### Download Qwen2.5-Omni-7B Model
 
 First, download the base model: [Qwen2.5-Omni-7B](https://huggingface.co/Qwen/Qwen2.5-Omni-7B)
 
 Modify `config.json` of `Qwen2.5-Omni-7B` to include `"hidden_size": 3584` at the root level.
 
 
-### 🔁 Launch GRPO Training
+### Launch GRPO Training
 
 ```bash
 bash ./src/scripts/run_grpo_image_audio_avqa.sh
 ```
 > 📝 Set `per_device_train_batch_size=1` as in previous R1-V setups  
 > 📝 To use custom data, follow the JSON format in `make_omniInstruct_r1_dataset.py` for audio–image or audio–video tasks.  
-> ⚠️ See [Qwen2.5-Omni issue #205](https://github.com/QwenLM/Qwen2.5-Omni/issues/205) if you run into a dtype mismatch error. 
+> 📝 See [Qwen2.5-Omni issue #205](https://github.com/QwenLM/Qwen2.5-Omni/issues/205) if you run into a dtype mismatch error. 
 
 
 ## 🧪 Evaluation
