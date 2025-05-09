@@ -110,8 +110,9 @@ Modify `config.json` of `Qwen2.5-Omni-7B` to include `"hidden_size": 3584` at th
 bash ./src/scripts/run_grpo_image_audio_avqa.sh
 ```
 > 📝 Set `per_device_train_batch_size=1` as in previous R1-V setups  
-> 📝 To use custom data, follow the JSON format in `make_omniInstruct_r1_dataset.py` for audio–image or audio–video tasks.  
-> 📝 See [Qwen2.5-Omni issue #205](https://github.com/QwenLM/Qwen2.5-Omni/issues/205) if you run into a dtype mismatch error. 
+> 📝 To use custom data, follow the JSON format in `./src/make_omniInstruct_r1_dataset.py` for audio–image or audio–video tasks.  
+> 📝 See [Qwen2.5-Omni issue #205](https://github.com/QwenLM/Qwen2.5-Omni/issues/205) if you run into a dtype mismatch error.  
+> ⚙️ Trained on 8×A100 (80G) GPUs; also supported on 4×A100 (80G).
 
 
 ## Evaluation
@@ -119,8 +120,8 @@ bash ./src/scripts/run_grpo_image_audio_avqa.sh
 Evaluate on the AVQA-R1-6K validation set:
 
 ```bash
-python ./omniInstruct-v1_eval_valid.py # Run the model on the validation set
-python ./omniInstruct-v1_cal_metrics_valid.py # Compute accuracy
+python ./src/omniInstruct-v1_eval_valid.py # Run the model on the validation set
+python ./src/omniInstruct-v1_cal_metrics_valid.py # Compute accuracy
 ```
 
 
