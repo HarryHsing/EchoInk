@@ -149,24 +149,25 @@ with open(OUT_PATH, "a", encoding="utf-8") as fout:
 
         # --- 生成 ---
         with torch.no_grad():
-            # Inference Config
-            # out_ids = model.generate(
-            #     **inputs,
-            #     use_audio_in_video=USE_AUDIO,
-            #     return_audio=False,
-            #     thinker_do_sample=False,
-            #     repetition_penalty=1.0
-            # )
-
-            # Training Config
-            out_ids = model.generate(
-                **inputs, 
-                use_audio_in_video=USE_AUDIO,
-                return_audio=False,
-                do_sample=True,
-                top_p=0.95,   
-                temperature=1, # HACK
-            )
+            if BASE_MODEL:
+                # As suggested in the github issue #171 of Qwen2.5-Omni
+                out_ids = model.generate(
+                    **inputs,
+                    use_audio_in_video=USE_AUDIO,
+                    return_audio=False,
+                    thinker_do_sample=False,
+                    repetition_penalty=1.0
+                )
+            else:
+                # Same with our training config
+                out_ids = model.generate(
+                    **inputs, 
+                    use_audio_in_video=USE_AUDIO,
+                    return_audio=False,
+                    do_sample=True,
+                    top_p=0.95,   
+                    temperature=1, # HACK
+                )
         reply = processor.batch_decode(out_ids, skip_special_tokens=True)[0]
 
         # --- 评估 ---
