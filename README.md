@@ -71,7 +71,8 @@ conda create -n echoink-r1 python=3.11
 conda activate echoink-r1
 bash setup.sh
 ```
-
+> 📝 **Gibberish / Repetitive Output ([Issue #13](https://github.com/HarryHsing/EchoInk/issues/13)):** If the model outputs gibberish or repetitive character loops during training/rollout (especially on `transformers>=4.57` or when using SDPA), install this specific `transformers` commit to fix it: `https://github.com/huggingface/transformers/tree/42ef218b58de79415ab45377a1e8de8dca3929f0`
+> 
 ### Download Dataset
 
 To download and extract the AVQA-R1-6K dataset:
